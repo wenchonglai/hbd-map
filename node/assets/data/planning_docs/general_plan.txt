@@ -1,0 +1,25 @@
+KEY	GPLU_CODE	GPLU_DESC	ZONE_CLASS	ZONE_COND	DENSITY	DENSITY_NOTES	FAR	FAR_NOTES	HEIGHT	HEIGHT_NOTES	STORIES	STORIES_NOTES	GENERAL_NOTES
+string	string	string	array|string	string	number	array|string	number	array|string	number	array|string	number	array|string	array|string
+132-R1	132	Single Family Residential	R1		-1		-1		-1		-1		1, 17, 18
+150-C4	150	Medium Residential	C4		-1		-1		-1		-1		*, 1, 4, 17, 18
+150-R3-Q	150	Medium Residential	R3	Q	-1		-1		-1		-1		1, 4, 17, 18
+160-C4	160	High Medium Residential	C4		600		-1		-1		-1		*, 1, 17, 18
+160-R4-Q	160	High Medium Residential	R4	Q	600		-1		-1		-1		1, 17, 18
+160-R5-Q	160	High Medium Residential	R5	Q	600	5	-1		-1		-1		 1, 17, 18
+170-R4	170	High Residential	R4		-1		-1		-1		-1		1, 17, 18
+170-R4-Q	170	High Residential	R4	Q	-1		-1		-1		-1		1, 17, 18
+170-R4-TQ	170	High Residential	R4	TQ	-1		-1		-1		-1		1, 17, 18
+170-R4-Q	170	High Residential	R4	Q	-1		-1		-1		-1		1, 17, 18
+170-R5-Q	170	High Residential	R5	Q	-1		-1	13	-1		-1		1, 17, 18
+260-C2	260	Regional Center Commercial	C2		-1		4.5	9	-1		-1		1, 17, 18
+260-C2-TQ	260	Regional Center Commercial	C2	TQ	-1		4.5	9	-1		-1		1, 17, 18
+260-C4	260	Regional Center Commercial	C4		-1		4.5	9	-1		-1		1, 17, 18
+260-C4-Q	260	Regional Center Commercial	C4	Q	-1		4.5	9	-1		-1		1, 17, 18
+260-C4-TQ	260	Regional Center Commercial	C4	TQ	-1		4.5	9	-1		-1		1, 17, 18
+260-CR	260	Regional Center Commercial	CR		-1		4.5	9	-1		-1		*, 1, 17, 18
+260-P	260	Regional Center Commercial	P		-1		4.5	9	-1		-1		1, 17, 18
+260-PB	260	Regional Center Commercial	PB		-1		4.5	9	-1		-1		1, 17, 18
+260-R4	260	Regional Center Commercial	R4		-1		4.5	9	-1		-1		*, 1, 17, 18
+260-R4-Q	260	Regional Center Commercial	R4	Q	-1		4.5	9	-1		-1		*, 1, 17, 18
+500-OS	500	Open Space	OS		-1		-1		-1		-1		1, 10, 18, 20
+700-PF	700	Public Facilities	PF		-1		-1		-1		-1		1, 10, 18, 19, 20

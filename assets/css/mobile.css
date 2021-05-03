@@ -1,0 +1,15 @@
+.content-panel.mobile .side-bar {
+	width: 100%;
+	max-width: none;
+	top: calc(100% - 48px);
+	height: auto;
+	max-height: 100%;
+	min-height: 50px;
+}
+.content-panel.mobile .legend > div{
+	display: none;	
+}
+.content-panel.mobile .search-pane{
+	width: calc(100% - 16px);
+	max-width: none;
+}
