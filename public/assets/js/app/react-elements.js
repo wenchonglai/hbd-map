@@ -1102,7 +1102,7 @@ const $MapCanvas = class extends React.Component{
 		this._ctx = ctx;
 		
 		this
-			.loadBaseMap( 'assets/img/basemap-background.png', 'assets/img/basemap-foreground.png' )
+			.loadBaseMap( './public/assets/img/basemap-background.png', './public/assets/img/basemap-foreground.png' )
 			.then( () => {
 				parent.props.legendMaps.get('A-ZONE').activeKey = getUrlParameters().legend || 'gplu';
 				parent.getMap()
