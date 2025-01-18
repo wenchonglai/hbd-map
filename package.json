@@ -1,0 +1,19 @@
+{
+  "name": "hbd_interactive_map",
+  "description": "Hollywood Boulevard District Interactive Map",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+  	"start": "nodemon index.js"
+  },
+  "devdependencies": {
+  	"nodemon": "~1.11.0"
+  },
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "express": "4.x",
+    "archiver": "~2.1.0",
+    "eval": "~0.1.2",
+    "cors": "~2.8.4"
+  }
+}

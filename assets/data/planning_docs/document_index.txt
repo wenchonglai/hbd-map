@@ -1,0 +1,13 @@
+KEY	DOCUMENT	FILE_NAME
+number	string	string
+0	LAMC # 	municipal_code
+1	HCP 1998 Footnote #	general_plan
+2	Community Redevelopment Agency	
+3	HBD I	
+4	reserved	
+5	Case #	zoning_ordinances
+6	Hollywood Community Plan Update 1	
+7	HBD II	
+8	reserved	
+9	HCPU2 Subarea #	hcpu2
+10	reserved	
