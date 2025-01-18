@@ -1,75 +1,80 @@
 <html>
-	<head>
-		<meta http-equiv="Access-Control-Allow-Origin" content="*"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-		<link rel='stylesheet' href='assets/css/main.css'>
-		<link rel='stylesheet' href='assets/css/mobile.css'>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz030iIsTgxFcEG1muavX1Q5YYIhKpf7Q" async defer></script>
-		<script src='assets/js/lib/react-16.5.2/umd/react.development.js'></script>
-		<script src='assets/js/lib/react-16.5.2/umd/react-dom.development.js'></script>
-		<script src='assets/js/lib/svgjs-2.6.6/svg.development.js'></script>
-		<script src='assets/js/app/geocode.js'></script>
-		<script src='assets/js/app/rgba.js'></script>
-		<script src='assets/js/app/hatch.js'></script>
-		<script src='assets/js/app/legend-map.js'></script>
-		<script src='assets/js/app/coord.js'></script>
-		<script src='assets/js/app/projection.js'></script>
-		<script src='assets/js/app/draw-layer.js'></script>
-		<script src='assets/js/app/draw-svg.js'></script>
-		<script src='assets/js/app/download.js'></script>
-		<script src='assets/js/app/get-url-params.js'></script>
-		<script src='assets/js/app/react-elements.js'></script>
 
-		<script>
+<head>
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	<link rel='stylesheet' href='public/assets/css/main.css'>
+	<link rel='stylesheet' href='public/assets/css/mobile.css'>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz030iIsTgxFcEG1muavX1Q5YYIhKpf7Q" async
+		defer></script>
+	<script src='public/assets/js/lib/react-16.5.2/umd/react.development.js'></script>
+	<script src='public/assets/js/lib/react-16.5.2/umd/react-dom.development.js'></script>
+	<script src='public/assets/js/lib/svgjs-2.6.6/svg.development.js'></script>
+	<script src='public/assets/js/app/geocode.js'></script>
+	<script src='public/assets/js/app/rgba.js'></script>
+	<script src='public/assets/js/app/hatch.js'></script>
+	<script src='public/assets/js/app/legend-map.js'></script>
+	<script src='public/assets/js/app/coord.js'></script>
+	<script src='public/assets/js/app/projection.js'></script>
+	<script src='public/assets/js/app/draw-layer.js'></script>
+	<script src='public/assets/js/app/draw-svg.js'></script>
+	<script src='public/assets/js/app/download.js'></script>
+	<script src='public/assets/js/app/get-url-params.js'></script>
+	<script src='public/assets/js/app/react-elements.js'></script>
+
+	<script>
 
 
-const WIDTH_MAP = 1280 * window.devicePixelRatio,
+		const WIDTH_MAP = 1280 * window.devicePixelRatio,
 			HEIGHT_MAP = 832 * window.devicePixelRatio;
 
-function init(){
-	const	CENTER_NAD = [ 6460481.543734974, 1860059.721022923 ],
+		function init() {
+			const CENTER_NAD = [6460481.543734974, 1860059.721022923],
 				DELTA_NAD = 10000,
-				CENTER_GCS = [ -118.334243017, 34.1030693135 ],
+				CENTER_GCS = [-118.334243017, 34.1030693135],
 				DELTA_X_GCS = 0.032961356000001274,
 				DELTA_Y_GCS = 0.017952405000002614 / .65,
-				[ WIDTH_SVG, HEIGHT_SVG ] = [ 11 * 72, 8.5 * 72 ],
-				CENTER_SVG = [ 5.5 * 72, 2.85 * 72 ];
+				[WIDTH_SVG, HEIGHT_SVG] = [11 * 72, 8.5 * 72],
+				CENTER_SVG = [5.5 * 72, 2.85 * 72];
 
-	let width = document.body.offsetWidth, height = document.body.offsetHeight,
-			svgCanvas = SVG('svg').size(WIDTH_SVG, HEIGHT_SVG),
-			projection = {
-				nad: new Projection({ center: CENTER_NAD, scale: 1 / DELTA_NAD }),
-				gcs: new Projection({ center: CENTER_GCS, scaleX: 1 / DELTA_X_GCS, scaleY: 1 / DELTA_Y_GCS }),
-				svg: new Projection({ center: CENTER_SVG, scaleX: 1 / 720, scaleY: -1 / 720 }),
-				screen: new Projection({
-					center: [ document.body.offsetWidth / 2, document.body.offsetHeight / 2 - 40 * window.devicePixelRatio ],
-					scaleX: 1 / WIDTH_MAP,
-					scaleY: -1 / WIDTH_MAP,
-					zoomMax: 4,
-					zoomMin: .35
-				})
-			},
-			$contentPanel = React.createElement( $ContentPanel, {
-				key: 1,
-				projection: projection,
-				legendMaps: new LegendMaps(LEGEND_PARAMS),
-				svg: svgCanvas
-			}),
-			reactElements = [
-				React.createElement('div', { className: 'title-bar', key: 0 },
-					'Hollywood Boulevard District Interactive Map',
-				),
-				$contentPanel
-			];
+			let width = document.body.offsetWidth, height = document.body.offsetHeight,
+				svgCanvas = SVG('svg').size(WIDTH_SVG, HEIGHT_SVG),
+				projection = {
+					nad: new Projection({ center: CENTER_NAD, scale: 1 / DELTA_NAD }),
+					gcs: new Projection({ center: CENTER_GCS, scaleX: 1 / DELTA_X_GCS, scaleY: 1 / DELTA_Y_GCS }),
+					svg: new Projection({ center: CENTER_SVG, scaleX: 1 / 720, scaleY: -1 / 720 }),
+					screen: new Projection({
+						center: [document.body.offsetWidth / 2, document.body.offsetHeight / 2 - 40 * window.devicePixelRatio],
+						scaleX: 1 / WIDTH_MAP,
+						scaleY: -1 / WIDTH_MAP,
+						zoomMax: 4,
+						zoomMin: .35
+					})
+				},
+				$contentPanel = React.createElement($ContentPanel, {
+					key: 1,
+					projection: projection,
+					legendMaps: new LegendMaps(LEGEND_PARAMS),
+					svg: svgCanvas
+				}),
+				reactElements = [
+					React.createElement('div', { className: 'title-bar', key: 0 },
+						'Hollywood Boulevard District Interactive Map',
+					),
+					$contentPanel
+				];
 
-	projection.screen.zoom = Math.min( width / WIDTH_MAP, height / HEIGHT_MAP );
-	ReactDOM.render( reactElements, document.getElementById('container') );
-}
-		</script>
-	</head>
-	<body onload = 'init()'>
-		<div id = 'drag-image' style = 'width: 1; height: 1; position: absolute; opacity: 0'></div>
-		<div id = 'container'></div>
-		<div id = 'svg' style = 'display: none; position: absolute; top: 68px; left: 316px; z-index:9999'></div>
-	</body>
+			projection.screen.zoom = Math.min(width / WIDTH_MAP, height / HEIGHT_MAP);
+			ReactDOM.render(reactElements, document.getElementById('container'));
+		}
+	</script>
+</head>
+
+<body onload='init()'>
+	<div id='drag-image' style='width: 1; height: 1; position: absolute; opacity: 0'></div>
+	<div id='container'></div>
+	<div id='svg' style='display: none; position: absolute; top: 68px; left: 316px; z-index:9999'></div>
+</body>
+
 </html>
