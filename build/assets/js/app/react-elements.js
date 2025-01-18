@@ -1,5 +1,5 @@
 {
-const DATA_URL = '/public/assets/data/';
+const DATA_URL = '/assets/data/';
 
 async function readFile(file) {
 	return new Promise(res => {
