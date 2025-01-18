@@ -1,0 +1,9 @@
+/version
+/version/**/*
+/node_modules
+/node_modules/**/*
+/assets
+/docs
+/docs/**/*
+/node
+.DS_Store

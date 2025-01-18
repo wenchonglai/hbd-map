@@ -1,0 +1,27 @@
+KEY	PROP_GPLU	PROP_ZONE	SUBAREA	SUBAREA1	COLUMN1	CPIO	DENSITY	DENSITY_NOTES	FAR	FAR_NOTES	HEIGHT	HEIGHT_NOTES	STORIES	STORIES_NOTES	GENERAL_NOTES
+string	string	string	string	string	boolean	boolean	number	array|string	number	array|string	number	array|string	number	array|string	array|string
+3:1B	High Medium Residential	[Q]R5-1VL-CPIO	Multi-Family Residential	Housing Opportunity	0	1	-1		3		45		-1		3:1B
+3:2	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Maintain Scale	0	1	-1		3	*	60		-1		3:2
+3:2C	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*	60		-1		3:2C
+3:3	High Residential	[Q]R5-2D-CPIO	Multi-Family Residential	Community Scale	0	1	-1		6		60		-1		3:3
+3:4	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Maintain Scale	0	1	-1		2	*	60		-1		3:4
+4:2B	Regional Center Commercial	[Q]C4-2D-SN-CPIO	Regional Center	Maintain Scale	0	1	-1		2	*	36		-1		4:2B
+4:2C	Regional Center Commercial	[Q]C4-2D-CPIO	Regional Center	Maintain Scale	0	1	-1		2	*	36		-1		4:2C
+4:3A	Regional Center Commercial	[Q]C4-2D-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		4.5	*, ***	-1		-1		4:3A
+4:1	Open Space	OS-1-CPIO	Consistency/Administrative	Open Space	0	1	0		0		-1		-1		4:1
+4:4A	Regional Center Commercial	[Q]C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		4.5	*, **	-1		-1		4:4A
+4:4	Regional Center Commercial	[Q]C4-2D-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		4.5	*, **	-1		-1		4:4
+3:1C	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Maintain Scale	0	1	-1		3	*	-1		-1		3:1C
+3:2G	High Medium Residential	[Q]R4-2-SN-CPIO	Multi-Family Residential	Housing Opportunity	0	1	-1		6		60		-1		3:2G
+2:1A	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*, **, ****	150		-1		2:1A
+4:1A	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Maintain Scale	0	1	-1		3	*, ***	75		-1		4:1A
+4:1B	Regional Center Commercial	C4-2D-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*, **	75		-1		4:1B
+4:1C	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*, **	75		-1		4:1C
+4:1F	Regional Center Commercial	C4-2D-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*, **	-1		-1		4:1F
+3:1D	High Medium Residential	[Q]R4-1XL-CPIO	Consistency/Administrative	Other	0	1	-1		3		30		-1		3:1D
+3:1A	High Medium Residential	[Q]R4-1VL-CPIO	Multi-Family Residential	Housing Opportunity	0	1	-1		3		45		-1		3:1A
+3:2A	Open Space	OS-1VL-CPIO	Consistency/Administrative	Open Space	0	1	0		0		45		-1		3:2A
+4:1G	Regional Center Commercial	C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		3	*, **	-1		-1		4:1G
+3:2B	High Medium Residential	[Q]R4-2-CPIO	Multi-Family Residential	Housing Opportunity	0	1	-1		6		60		-1		3:2B
+69	Medium Residential	[Q]R3-1XL-CPIO	Consistency/Administrative	Other	0	1	-1		3		30		-1		69
+4:3	Regional Center Commercial	[Q]C4-2D-SN-CPIO	Regional Center	Transit-Oriented Development	0	1	-1		4.5	*, ***	-1		-1		4:3

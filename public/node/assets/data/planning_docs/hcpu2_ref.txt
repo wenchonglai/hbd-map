@@ -1,0 +1,31 @@
+NOTE_NUM	URL	TEXT	DATE
+string	string	string	date
+*	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Additional FAR will require CPC approval	20170501
+**	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Historic properties: FAR exceeding 2 requires OHR approval.	20170501
+***	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Historic properties: FAR exceeding 3 requires OHR approval.	20170501
+****	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	FAR = 2:1 (residential or commercial only use).	20170501
+3:1B	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:2	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  3:2D absorbed. See link for specific subarea regulations.	20170501
+3:2C	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:3	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:4	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:2B	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:2C	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:3A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:1	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:4A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:4	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:1C	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:2G	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+2:1A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  2:1B, 4:2A absorbed. See link for specific subarea regulations.	20170501
+4:1A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+4:1B	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  4:1D absorbed 06/22/2015; portion removed Ord 184066. Modification #1476921600000 (MOD10/20/2016_ORD184066); See link for specific subarea regulations.	20170501
+4:1C	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  4:1E absorbed 06/22/2015. See link for specific subarea regulations.	20170501
+4:1F	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  4:1J absorbed 06/22/2015; Ord 183808. Modification #1476921600000 (MOD10/20/2016_ORD183808); See link for specific subarea regulations.	20170501
+3:1D	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  3:1E is absorbed. See link for specific subarea regulations.	20170501
+3:1A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+3:2A	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	New, per planner.  From 3:2B, 3:2C. See link for specific subarea regulations.	20170501
+4:1G	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Change, per planner.  4:1H, 4:1I absorbed 06/22/2015; Ord 183808 adjustment. Modification #1476921600000 (MOD10/20/2016_ORD183808); See link for specific subarea regulations.	20170501
+3:2B	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	See link for specific subarea regulations.	20170501
+69	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Renumbered 01/21/16 per planner, formerly 72. See link for specific subarea regulations.	20170501
+4:3	https://drive.google.com/file/d/0B_27Y2X4XNYASWZNU05FNTk4Uk0/view?usp=sharing	Absorbed 4:3B per planner. Modification #1482969600000 (MOD10/20/2016_ORD182636); See link for specific subarea regulations.	20170501
